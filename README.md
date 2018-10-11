@@ -2,6 +2,7 @@
 1. NodeJs - Make sure that you have Node v8 or above installed.
 2. MongoDB - Make sure that you have MongoBD setup in your local.
 3. Create a database in mongoDB. Database Name: __hospital__
+4. Go to file __hospital/database/dummy.txt__, copy and paste the insert Users script into mongoDB and run.
 
 ## __Installation__
 1. Clone this repo using https://github.com/certong0507/hospital.git
