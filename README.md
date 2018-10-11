@@ -56,7 +56,7 @@ __Patietn Dashboard View More Popup__
 
 <img src="https://github.com/certong0507/hospital/blob/master/doc/patient_view_more.png" width="600">
 
-## __MongoDB Screenshot__
+## __MongoDB Structure Screenshot__
 
 __Collections__
 
