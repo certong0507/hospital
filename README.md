@@ -10,3 +10,8 @@
 3. Run ```npm install``` in order to install dependencies.
 4. Once finished installing all the required dependencies, run ```npm start```
 5. Open new terminal or new console and run ```node ./server/app.js``` to start the server. __(Make sure you are in the correct folder path where you save the project)__
+
+## __Demo Login__
+3. Admin - __Username__: david, __Password__: 123
+1. Patient - __Username__: tan, __Password__: 123
+2. Patient - __Username__: loh, __Password__: 123
