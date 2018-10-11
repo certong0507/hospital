@@ -1,3 +1,9 @@
-Instruction to setup this web application in your local:
-  1. Clone or download this repository.
-  2. Open the project in your IDE, in this case (I'm using Visual Studio Code - https://code.visualstudio.com/) and 
+## __Prerequisite__
+	1. NodeJs - Make sure that you have Node v8 or above installed.
+	2. MongoDB - Make sure that you have MongoBD setup in your local.
+
+## __Installation__
+  1. Clone this repo using https://github.com/certong0507/hospital.git
+	2. Move to the appropriate directory: cd hospital.
+	3. Run ```npm run setup``` in order to install dependencies and clean the git repo.
+	
