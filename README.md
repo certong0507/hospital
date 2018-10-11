@@ -28,13 +28,13 @@ __Patient__ role:
 
 ##__Screenshot__
 __Login Page__
-<img src="https://github.com/certong0507/hospital/blob/master/doc/login.png" width="500">
+- <img src="https://github.com/certong0507/hospital/blob/master/doc/login.png" width="500">
 
 __Admin Dashboard__
-<img src="https://github.com/certong0507/hospital/blob/master/doc/admin_dashboard.png" width="600">
+- <img src="https://github.com/certong0507/hospital/blob/master/doc/admin_dashboard.png" width="600">
 
 __Admin Approval Action Popup__
-<img src="https://github.com/certong0507/hospital/blob/master/doc/admin_approval.png" width="600">
+- <img src="https://github.com/certong0507/hospital/blob/master/doc/admin_approval.png" width="600">
 
 __Admin Rejection Action Popup
 <img src="https://github.com/certong0507/hospital/blob/master/doc/admin_rejection.png" width="600">
