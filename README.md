@@ -12,7 +12,7 @@
 5. Open new terminal or new console and run ```node ./server/app.js``` to start the server. __(Make sure you are in the correct folder path where you save the project)__
 6. Open your browser and go to http://localhost:3000/
 
-## __Demo Login Account__
+## __Demo Login Accounts__
 1. Admin - __Username__: david, __Password__: 123
 2. Patient - __Username__: tan, __Password__: 123
 3. Patient - __Username__: loh, __Password__: 123
