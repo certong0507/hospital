@@ -26,7 +26,7 @@ __Patient__ role:
 - Dashbosrd page that show own application only.
 - Able to view more for each application.
 
-##__Screenshot__
+## __Screenshot__
 
 __Login Page__
 
