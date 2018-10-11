@@ -117,7 +117,7 @@ class CMS extends React.Component {
    render() {
       return (
          <div>
-            <h2>{this.initUserRole(this.state.role)} CMS</h2>
+            <h2>{this.initUserRole(this.state.role)} Dashboard</h2>
 
             <TableList datatList={this.state.dataList} role={this.state.role} refreshDataList={this.refreshDataList} />
 
@@ -126,7 +126,7 @@ class CMS extends React.Component {
             <button onClick={this.handleLogOut}>Log Out</button>
 
             <SkyLight hideOnOverlayClicked ref={ref => this.applyModelPopup = ref} title="Letter of Guarantee" afterClose={this.executeAfterModalClose}>
-               Apply Letter of Guarantee
+               <h3>Apply Letter of Guarantee</h3>
                <form onSubmit={this.handleApply}>
                   <div className="modelInnerContentWrap">
                         <div className="modelInnerContentLabel">
