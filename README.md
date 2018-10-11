@@ -12,6 +12,15 @@
 5. Open new terminal or new console and run ```node ./server/app.js``` to start the server. __(Make sure you are in the correct folder path where you save the project)__
 
 ## __Demo Login__
-3. Admin - __Username__: david, __Password__: 123
-1. Patient - __Username__: tan, __Password__: 123
-2. Patient - __Username__: loh, __Password__: 123
+1. Admin - __Username__: david, __Password__: 123
+2. Patient - __Username__: tan, __Password__: 123
+3. Patient - __Username__: loh, __Password__: 123
+
+__Admin__ role: 
+1. Dashboard page that show all the patient application list.
+2. Approve or Reject patient application.
+
+__Patient__ role:
+1. Create application.
+2. Dashbosrd page that show own application only.
+3. Able to view more for each application.
