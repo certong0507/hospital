@@ -2,7 +2,7 @@
    margin: 10px;
 }
 
-.formInputWrapper > input[type=text], .formInputWrapper > label{
+.formInputWrapper > input[type=text], .formInputWrapper > input[type=password], .formInputWrapper > label{
    font-size: 21px;
 }
 

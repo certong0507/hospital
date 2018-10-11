@@ -5,6 +5,7 @@ import moment from 'moment';
 
 import TableList from './common/TableList';
 import 'react-datepicker/dist/react-datepicker.css';
+import './CMS.css';
 
 class CMS extends React.Component {
 
@@ -37,8 +38,8 @@ class CMS extends React.Component {
 }
 
    initDataList() {
-      const loginInfoObj = this.props.location.state.loginInfoObj[0];
       let url = '';
+      const loginInfoObj = this.props.location.state.loginInfoObj[0];
 
       // 'p' for Patient, 'a' for Admin
       if (loginInfoObj.role === 'p')
@@ -132,7 +133,7 @@ class CMS extends React.Component {
                               <h4>Hospital</h4>
                         </div>
                         <div className="modelInnerContent">
-                              <select name="hospital" value={this.state.hospital} onChange={this.handleHospitalChange}>
+                              <select className="applyInput" name="hospital" value={this.state.hospital} onChange={this.handleHospitalChange}>
                                     <option value="Hospital A">Hospital A</option>
                                     <option value="Hospital B">Hospital B</option>
                                     <option value="Hospital C">Hospital C</option>
@@ -146,6 +147,7 @@ class CMS extends React.Component {
                         </div>
                         <div className="modelInnerContent">
                               <DatePicker
+                                    className="applyInput"
                                     selected={this.state.dateFrom}
                                     onChange={this.handleDateFromChange} />
                         </div>
@@ -157,6 +159,7 @@ class CMS extends React.Component {
                         </div>
                         <div className="modelInnerContent">
                               <DatePicker
+                                    className="applyInput"
                                     selected={this.state.dateTo}
                                     onChange={this.handleDateToChange} />
                         </div>
