@@ -120,7 +120,7 @@ class TableList extends React.Component {
 
         return (
             <div>
-                <h2>Table List</h2>
+                <h3>Letter of Guarantees List</h3>
                 <table>
                     <tbody>
                         <tr>
@@ -135,7 +135,7 @@ class TableList extends React.Component {
                     </tbody>
                 </table>
 
-                <SkyLight hideOnOverlayClicked ref={ref => this.modelPopup = ref} title={this.state.roleName + " Popup"} afterClose={this.executeAfterModalClose}>
+                <SkyLight hideOnOverlayClicked ref={ref => this.modelPopup = ref} title={this.state.roleName + " Action"} afterClose={this.executeAfterModalClose}>
                     <h3>{this.state.isAdminRole ? "Do you want to " + this.state.adminAction + ' this application?' : 'View More'}</h3>
 
                     {this.state.isAdminRole ? <AdminModelContent onSubmit={this.handleUpdate}
@@ -174,8 +174,18 @@ class AdminModelContent extends React.Component {
             <ModelInnerContent innerContentLabel='Hospital' innerContent={this.props.mainItem.hospital} />
             <ModelInnerContent innerContentLabel='Expected Date' innerContent={moment(this.props.mainItem.date_from).format('DD/MM/YYYY') + ' to ' + moment(this.props.mainItem.date_to).format('DD/MM/YYYY')} />
             <ModelInnerContent innerContentLabel='Created Date' innerContent={moment(this.props.mainItem.created_at).format('DD/MM/YYYY')} />
-            <div><input type="text" value={this.props.remarks} onChange={this.props.onChange} /></div>
-            <div><input type="submit" value={this.props.adminAction} /></div>
+            <div className="modelInnerContentWrap">
+                <div className="modelInnerContentLabel">
+                        <h4>Remarks</h4>
+                </div>
+                <div className="modelInnerContent">
+                    <input type="text" value={this.props.remarks} onChange={this.props.onChange} />
+                </div>
+                <div className="modelInnerContentLabel errorMessage">
+                    { this.props.adminAction === 'Approve' ? '*Please enter AMOUNT for approval' : '*Please enter REASON of rejection'}
+                </div>
+            </div>
+            <div><button type="submit">{this.props.adminAction}</button></div>
         </form>
     }
 }

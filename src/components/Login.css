@@ -1,0 +1,11 @@
+.formInputWrapper{
+   margin: 10px;
+}
+
+.formInputWrapper > input[type=text], .formInputWrapper > label{
+   font-size: 21px;
+}
+
+.errorMessage{
+   color: red;
+}

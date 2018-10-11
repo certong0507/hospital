@@ -12,7 +12,6 @@ const url = process.env.MONGODB_URI || "mongodb://localhost:27017/hospital";
 /** connect to MongoDB datastore */
 try {
    mongoose.connect(url, {
-       //useMongoClient: true
        useNewUrlParser: true
    });
    mongoose.set('debug', true);

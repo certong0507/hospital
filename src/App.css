@@ -1,3 +1,25 @@
+body{
+  background: aliceblue;
+}
+
+h2{
+  font-size: 35px;
+}
+
+button{
+  padding: 10px;
+  background: #6f94dc;
+  border: 1px solid #6f94dc;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
 .App {
   text-align: center;
 }

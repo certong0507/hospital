@@ -11,8 +11,12 @@ td, th {
    padding: 8px;
 }
 
+tr:nth-child(odd) {
+   background-color: #ffffff;
+}
+
 tr:nth-child(even) {
-   background-color: #80ffcc;
+   background-color: #eaeffa;
 }
 
 .modelInnerContentWrap{
@@ -28,4 +32,8 @@ tr:nth-child(even) {
 
 .modelInnerContentLabel{
    margin: 0px 15px;
+}
+
+.modelInnerContent > input{
+   font-size: 21px;
 }

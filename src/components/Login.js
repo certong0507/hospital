@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Login.css';
+
 class Login extends React.Component {
 
    constructor(props) {
@@ -62,17 +64,6 @@ class Login extends React.Component {
             .catch((err) => {
                console.log(err)
             })
-
-         // fetch('http://localhost:5000/api/letters')
-         //    .then(response => response.json())
-         //    .then(json => console.log(json))
-         //    .catch((err) => {
-         //       console.log(err);
-         //    })
-
-         // fetch('https://jsonplaceholder.typicode.com/todos/1')
-         //    .then(response => response.json())
-         //    .then(json => console.log(json))
       }else{
          this.setState({
             message: 'Username and Password cannot be empty'
@@ -85,20 +76,19 @@ class Login extends React.Component {
          <div>
             <h2>Login Page</h2>
             <form onSubmit={this.handleSubmit} >
-               <div className="form_input_wrapper">
+               <div className="formInputWrapper">
                   <label>Username: </label>
                   <input type="text" name="username" value={this.state.username} onChange={this.handleUsernameChange} />
                </div>
 
-               <div className="form_input_wrapper">
+               <div className="formInputWrapper">
                   <label>Password: </label>
                   <input type="text" name="password" value={this.state.password} onChange={this.handlePasswordChange} />
                </div>
-
-               <input type="submit" value="Login" />
+               <button type="submit">Login</button>
             </form>
             <div>
-               <h3>
+               <h3 className="errorMessage">
                   {this.state.message}
                </h3>
             </div>

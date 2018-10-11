@@ -127,21 +127,42 @@ class CMS extends React.Component {
             <SkyLight hideOnOverlayClicked ref={ref => this.applyModelPopup = ref} title="Letter of Guarantee" afterClose={this.executeAfterModalClose}>
                Apply Letter of Guarantee
                <form onSubmit={this.handleApply}>
-                  <select name="hospital" value={this.state.hospital} onChange={this.handleHospitalChange}>
-                     <option value="Hospital A">Hospital A</option>
-                     <option value="Hospital B">Hospital B</option>
-                     <option value="Hospital C">Hospital C</option>
-                  </select>
+                  <div className="modelInnerContentWrap">
+                        <div className="modelInnerContentLabel">
+                              <h4>Hospital</h4>
+                        </div>
+                        <div className="modelInnerContent">
+                              <select name="hospital" value={this.state.hospital} onChange={this.handleHospitalChange}>
+                                    <option value="Hospital A">Hospital A</option>
+                                    <option value="Hospital B">Hospital B</option>
+                                    <option value="Hospital C">Hospital C</option>
+                              </select>
+                        </div>
+                  </div>
+                  
+                  <div className="modelInnerContentWrap">
+                        <div className="modelInnerContentLabel">
+                              <h4>Expected Date From</h4>
+                        </div>
+                        <div className="modelInnerContent">
+                              <DatePicker
+                                    selected={this.state.dateFrom}
+                                    onChange={this.handleDateFromChange} />
+                        </div>
+                  </div>
 
-                  <DatePicker
-                     selected={this.state.dateFrom}
-                     onChange={this.handleDateFromChange} />
-
-                  <DatePicker
-                     selected={this.state.dateTo}
-                     onChange={this.handleDateToChange} />
-
-                  <input type="submit" value={this.state.adminAction} />
+                  <div className="modelInnerContentWrap">
+                        <div className="modelInnerContentLabel">
+                              <h4>Expected Date To</h4>
+                        </div>
+                        <div className="modelInnerContent">
+                              <DatePicker
+                                    selected={this.state.dateTo}
+                                    onChange={this.handleDateToChange} />
+                        </div>
+                  </div>
+                  <button type="submit">Apply</button>
+                  
                </form>
             </SkyLight>
          </div>

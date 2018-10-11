@@ -1,7 +1,7 @@
 db.users.insertMany( 
    [
-      { name: "foo cer tong", username: "foo", password: "123", nfid: "2239485958", mobile_num: "0123456999", role: "p" },
-      { name: "ng wan yan", username: "ng", password: "123", nfid: "8875445679", mobile_num: "0121905837", role: "p" },
-      { name: "lim bie", username: "lim", password: "123", nfid: "2389078662", mobile_num: "0028787966", role: "a", email: "lim@abcadmin.com"  } 
+      { name: "James Tan Kaa Lok", username: "tan", password: "123", nfid: "2239485958", mobile_num: "0123456999", role: "p" },
+      { name: "Jessica Loh Pin Yi", username: "loh", password: "123", nfid: "8875445679", mobile_num: "0121905837", role: "p" },
+      { name: "David Beckham", username: "david", password: "123", nfid: "2389078662", mobile_num: "0028787966", role: "a", email: "lim@abcadmin.com"  } 
    ]
 )
