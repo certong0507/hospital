@@ -40,7 +40,7 @@ __Admin Approval Action Popup__
 
 <img src="https://github.com/certong0507/hospital/blob/master/doc/admin_approval.png" width="600">
 
-__Admin Rejection Action Popup
+__Admin Rejection Action Popup__
 
 <img src="https://github.com/certong0507/hospital/blob/master/doc/admin_rejection.png" width="600">
 
@@ -53,4 +53,5 @@ __Patient Apply Letter of Guarantee Popup__
 <img src="https://github.com/certong0507/hospital/blob/master/doc/patient_apply_LoG.png" width="600">
 
 __Patietn Dashboard View More Popup__
+
 <img src="https://github.com/certong0507/hospital/blob/master/doc/patient_view_more.png" width="600">
