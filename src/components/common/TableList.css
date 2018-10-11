@@ -1,0 +1,31 @@
+table {
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 80%;
+   margin: auto;
+}
+
+td, th {
+   border: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+}
+
+tr:nth-child(even) {
+   background-color: #80ffcc;
+}
+
+.modelInnerContentWrap{
+   text-align: left;
+   width: 60%;
+   margin: 10px auto;
+}
+
+.modelInnerContentLabel, .modelInnerContentLabel > h4,  .modelInnerContent{
+   display: inline-block;
+   margin: auto;
+}
+
+.modelInnerContentLabel{
+   margin: 0px 15px;
+}
