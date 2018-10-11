@@ -55,3 +55,17 @@ __Patient Apply Letter of Guarantee Popup__
 __Patietn Dashboard View More Popup__
 
 <img src="https://github.com/certong0507/hospital/blob/master/doc/patient_view_more.png" width="600">
+
+## __MongoDB Screenshot__
+
+__Collections__
+
+<img src="https://github.com/certong0507/hospital/blob/master/doc/collections.png" width="400">
+
+__User Object__
+
+<img src="https://github.com/certong0507/hospital/blob/master/doc/user_obj.png" width="600">
+
+__Letter of Guarantee Object__
+
+<img src="https://github.com/certong0507/hospital/blob/master/doc/log_obj.png" width="600">
