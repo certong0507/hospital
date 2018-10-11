@@ -17,10 +17,10 @@
 3. Patient - __Username__: loh, __Password__: 123
 
 __Admin__ role: 
-1. Dashboard page that show all the patient application list.
-2. Approve or Reject patient application.
+- Dashboard page that show all the patient application list.
+- Approve or Reject patient application.
 
 __Patient__ role:
-1. Create application.
-2. Dashbosrd page that show own application only.
-3. Able to view more for each application.
+- Create application.
+- Dashbosrd page that show own application only.
+- Able to view more for each application.
