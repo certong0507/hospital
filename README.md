@@ -1,7 +1,7 @@
 ## __Prerequisite__
 1. NodeJs - Make sure that you have Node v8 or above installed.
 2. MongoDB - Make sure that you have MongoBD setup in your local.
-*Create a database in mongoDB. Database Name: hospital
+-Create a database in mongoDB. Database Name: hospital
 
 ## __Installation__
 1. Clone this repo using https://github.com/certong0507/hospital.git
