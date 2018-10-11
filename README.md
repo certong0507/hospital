@@ -25,3 +25,25 @@ __Patient__ role:
 - Create application.
 - Dashbosrd page that show own application only.
 - Able to view more for each application.
+
+##__Screenshot__
+__Login Page__
+<img src="https://github.com/certong0507/hospital/blob/master/doc/login.png" width="500">
+
+__Admin Dashboard__
+<img src="https://github.com/certong0507/hospital/blob/master/doc/admin_dashboard.png" width="600">
+
+__Admin Approval Action Popup__
+<img src="https://github.com/certong0507/hospital/blob/master/doc/admin_approval.png" width="600">
+
+__Admin Rejection Action Popup
+<img src="https://github.com/certong0507/hospital/blob/master/doc/admin_rejection.png" width="600">
+
+__Patient Dashboard__
+<img src="https://github.com/certong0507/hospital/blob/master/doc/patient_dashboard.png" width="600">
+
+__Patient Apply Letter of Guarantee Popup__
+<img src="https://github.com/certong0507/hospital/blob/master/doc/patient_apply_LoG.png" width="600">
+
+__Patietn Dashboard View More Popup__
+<img src="https://github.com/certong0507/hospital/blob/master/doc/patient_view_more.png" width="600">
