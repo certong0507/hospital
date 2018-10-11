@@ -7,4 +7,4 @@
 2. Move to the appropriate directory: cd hospital.
 3. Run ```npm install``` in order to install dependencies.
 4. Once finished installing all the required dependencies, run ```npm start```
-5. Open new terminal or new console and run ```node ./server/app.js``` to start the server.(Make sure you are in the correct folder which you save the project)
+5. Open new terminal or new console and run ```node ./server/app.js``` to start the server. ######(Make sure you are in the correct folder which you save the project)
